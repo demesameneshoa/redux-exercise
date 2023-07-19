@@ -27,7 +27,7 @@ const CartContainer = () => {
         <footer>
             <hr />
             <h4>
-            Total <span>${total}</span>
+            Total <span>${total.toFixed(2)}</span>
             </h4>
         <button className="btn clear-btn" onClick={() => dspatch(clearCart())}>Clear Cart</button>
        </footer>
